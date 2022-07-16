@@ -1,11 +1,11 @@
 .global-font-size {
-  font-size: 3em;
+  font-size: 2.5em;
   color: orange;
   text-shadow: 2px 2px black;
 }
 
 h1 {
-  font-size: 7em;
+  font-size: 5em;
   letter-spacing: 5px;
   color: orange;
   text-shadow: 2px 2px black;
@@ -30,6 +30,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 input {
@@ -45,8 +46,8 @@ input:focus {
 
 .result-container {
   background-image: linear-gradient(rgb(82, 240, 214), rgb(252, 140, 106));
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   border: 3px solid;
   border-radius: 50%;
   display: flex;
