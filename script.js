@@ -21,6 +21,7 @@ inputBtn.addEventListener("click", () => {
     dataToShow.innerHTML = data;
     allDataDisplay.append(dataToShow);
     dataToRandomizeB = [];
+    inputBtn.classList.add("btnClick");
     setTimeout(btnGetCliked, 500);
   });
 });
@@ -38,6 +39,7 @@ function getRandomNumber(min, max) {
 function btnGetCliked() {
   console.log("btn get cliked");
   btnRandom.classList.remove("btnClick");
+  inputBtn.classList.remove("btnClick");
   resultContainer.classList.remove("result-container-spinning");
 }
 
